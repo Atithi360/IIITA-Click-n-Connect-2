@@ -10,7 +10,7 @@ document.body.onload = function () {
       //Show welcome msg only until the settings page has been triggered.
       if (!(items.first == undefined && items.last == undefined && items.email == undefined && items.pennID == undefined)) {
         document.getElementsByClassName("welcome-msg")[0].style.display = "none";
-        document.getElementsByClassName("welcome-msg")[1].style.display = "none";
+        // document.getElementsByClassName("welcome-msg")[1].style.display = "none";
 
         document.getElementById("name").innerHTML = items.first + " " + items.last;
         document.getElementById("email").innerHTML = items.email;
