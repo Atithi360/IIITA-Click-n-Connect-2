@@ -34,6 +34,12 @@ text-align: center;
   margin: 0 15px 15px 15px;
   font-size: 16px;
 }
+h5 {font-family: monospace;
+    text-align: center;
+  margin: 0 15px 15px 15px;
+  font-size: 22px;
+    text-shadow:white;
+}
 
 h4 {
 text-align: center;
@@ -52,13 +58,14 @@ text-align: center;
   padding: 5%;
   text-align: center;
 }
-
 .portal_logo {
   position: relative;
-  top: 10px;
-  left: 5px;
-  width: 70%;
+    height: 100px;
+    width: 100px;
+    align-self: center;
 }
+
+
 
 .user {
   padding: 20px 0 20px 0;
