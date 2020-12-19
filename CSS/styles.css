@@ -1,0 +1,160 @@
+body {
+  width: 400px;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  background: #003366;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  margin: 0 15px 15px 15px;
+  font-size: 16px;
+}
+
+h4 {
+  margin: 5px;
+  color: #595959;
+  font-size: 13px;
+}
+
+/* hide non-checked courses */
+.hidden {
+  display: none;
+}
+
+/* -------------------Header Section----------------------- */
+.header {
+  padding: 5%;
+  text-align: center;
+}
+
+.portal_logo {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  width: 70%;
+}
+
+.user {
+  padding: 20px 0 20px 0;
+  background: white;
+}
+
+/* ------------Buttons---------------------------- */
+/* Adjust all imgs to have the same size */
+.buttons img {
+  height: 25px;
+  width: 25px;
+  padding: 4px 1px;
+  position: relative;
+  top: 5px;
+}
+
+.buttons-container {
+  width: 400px;
+  height: 150px;
+  background-image: url("/images/iiitag.JPG");
+  background-size: 100%;
+}
+
+.transparent-background {
+  background-color: #003366;
+  opacity: 0.8;
+  width: 400px;
+  height: 150px;
+  position: absolute;
+}
+
+
+.buttons {
+  margin: 0;
+  list-style: none;
+  /* this padding makes sure every button is placed together in one row
+  as well as control vertical position */
+  padding-top: 55px;
+}
+
+/* Menu Link Styles */
+.buttons a {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #404040;
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+}
+
+/* this is equivalent to the button icon */
+.buttons>li {
+  position: relative;
+  float: left;
+  width: 55px;
+}
+
+/* upon hovering on the button icons, do: */
+.buttons>li:hover {
+  border-radius: 20%;
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+/* hovering on icon buttons, activate the dropdown menu */
+.buttons li:hover>ul {
+  /* On hover, display the next level's menu */
+  display: inline;
+  height: auto;
+  opacity: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 175px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content>li {
+  position: relative;
+  height: 40px;
+  background-color: white;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content>li:hover {
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+.second-dropdown-content {
+  position: absolute;
+  top: 0;
+  right: -120px;
+  width: 120px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  /* hide and show, transition animation */
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity linear 0.15s;
+}
+
+.second-dropdown-content>li {
+  height: 40px;
+  background-color: white;
+}
+
+.second-dropdown-content>li:hover {
+  background-color: #d9d9d9;
+  transition: background-color 0.2s;
+}
+
+.show {
+  display: block;
+}
