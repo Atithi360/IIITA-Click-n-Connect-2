@@ -34,17 +34,20 @@ text-align: center;
   margin: 0 15px 15px 15px;
   font-size: 16px;
 }
-h5 {font-family: monospace;
+h5 {
+  /* font-family: monospace; */
     text-align: center;
   margin: 0 15px 15px 15px;
   font-size: 22px;
+  color: #f7f2f2;
     text-shadow:white;
 }
 
 h4 {
 text-align: center;
   margin: 5px;
-  color: #595959;
+  color: whitesmoke;
+  /* color: #595959; */
   font-size: 13px;
 }
 
@@ -69,7 +72,8 @@ text-align: center;
 
 .user {
   padding: 20px 0 20px 0;
-  background: white;
+  color: white;
+  /* background: white; */
 }
 
 /* ------------Buttons---------------------------- */
