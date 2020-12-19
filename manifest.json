@@ -10,7 +10,8 @@
   },
   "permissions": ["storage",
     "tabs",
-    "notifications"
+    "notifications",
+    "desktopCapture"
   ],
   "web_accessible_resources": [
        
