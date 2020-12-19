@@ -1,5 +1,6 @@
 body
 {
+  text-align: center;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
@@ -91,6 +92,7 @@ text-align: center;
   height: 150px;
   /* background-image: url("/images/iiitag.JPG"); */
   background-size: 100%;
+  
 }
 
  /* .transparent-background {
