@@ -1,30 +1,4 @@
-// script to get DynamicURLs.
 
-var month = (new Date()).getMonth(); // gets month, 0 is january
-var year = (new Date().getFullYear()); // gets full year
-var day = (new Date().getDay()); // gets day, 0 is Sunday
-var term;
-
-switch (month) {
-  case 0: // jan
-  case 1: // feb
-  case 2: // mar
-  case 3: // apr
-    term = "semester 1";
-    break;
-  case 4: // may
-  case 5: // jun
-  case 6: // jul
-    term = "semester 2";
-    break;
-  case 7: //aug
-  case 8: //sept
-  case 9: //oct
-  case 10: //nov
-  case 11: //dec
-    term = "semester 3";
-    break;
-}
 
 let link = 'https://www.coursera.org/learn/';
 let home = '/home/';
