@@ -16,6 +16,9 @@ The chrome extension is easy to access and you are just one click away to connec
 ![courses](/images/courses.JPG)
 ![events](/images/events.JPG)
 
+# Based on the theme 
+Contactless
+
 # How we did it?
 It required few cups of coffee and the large collection of documentation. We have taken use of chrome.extension api, chrome.runtime api, chrome.storage api. 
 # What we learnt?
