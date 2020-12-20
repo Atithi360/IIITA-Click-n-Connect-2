@@ -1,6 +1,8 @@
 # What it is?
 
-IIIT-A Click n Connect is a chrome extension.It is a great way of helping out students for managing their resources according to their interests as the extension saves your record and browses your topics of interests.Also, with so many societies and so many resources it can become overwhelming many a times to keep a track of what's going on thus it is also a one click to connect to several events, articles, and video streams being conducted by IIITA.Tech Stack! 😍
+IIIT-A Click n Connect is a **Chrome Extension**.
+
+It is a great way of helping out students for managing their resources according to their interests as the extension saves your record and browses your topics of interests.Also, with so many societies and so many resources it can become overwhelming to keep a track of what's going on thus it is also a one click to connect to several events, articles, and video streams being conducted by IIITA.
 
 ![Initial Page](/images/initial_page.JPG)
 ![Setting Page](/images/setting_page.JPG)
