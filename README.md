@@ -28,3 +28,6 @@ As in 2020 and further in 2021, IIITA is going to conduct its classes online thu
 | ----------- | ----------- |
 | HTML        | JavaScript  |
 | CSS         |             |
+
+# How to run the project?
+Just open your google chrome and then to the icon of extensions. After that, click on manage extensions after that switch on the developer mode there, then click on the load unpacked option and browse the folder of the extension. Now, The extension would be appearing into your extensions. you can pin and run :)
